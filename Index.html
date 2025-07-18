@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+      
+  <link rel="stylesheet" href="style.css">
+  <script src="App.js" defer></script>
+  
+</head>
+<body>
+  <h1>Todo App</h1>
+  <div class="wrapper">
+   <form>
+    <input id = "todo-input" type="text" 
+    placeholder="Add your TO-DO task" autocomplete="off">
+    <button id="add-button">ADD</button>
+   </form>
+   <un id="todo-list">
+    <li class="todo">
+      <input type="checkbox" id="todo-1"/>
+      <label class="custom-checkbox" for="todo-1">
+      <i class="material-icons check-icon"> check</i>
+      </label>
+      <label for="todo-1" class="todo-text">
+  my first project for html, css, js
+</label>
+   <button class="delete-button">
+        <i class="material-icons">delete</i>
+      </button>
+    </li>
+    <li class="todo">
+      <input type="checkbox" id="todo-2"/>
+      <label class="custom-checkbox" for="todo-2">
+      <i class="material-icons check-icon">check</i>
+      </label>
+      <label for="todo-2" class="todo-text">
+  my second project for html, css, js
+</label>
+   <button class="delete-button">
+        <i class="material-icons">delete</i>
+      </button>
+    </li>
+   </un>
+
+  </div>
+</body>
+</html>
